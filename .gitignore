@@ -1,4 +1,4 @@
-*.ctd
+*.ctd*
 *.bundle.*
 lib/
 node_modules/
