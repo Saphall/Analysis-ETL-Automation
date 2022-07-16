@@ -1,0 +1,5 @@
+alive-progress
+python-dotenv
+datetime
+PyMySQL
+black

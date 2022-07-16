@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS `sql_inventory`;
+CREATE DATABASE `sql_inventory`;
+
+USE `sql_inventory`;
+
+SET NAMES UTF8;
+SET CHARACTER_SET_CLIENT = UTF8MB4;

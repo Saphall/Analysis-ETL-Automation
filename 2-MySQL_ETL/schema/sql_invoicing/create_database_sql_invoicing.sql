@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS `sql_invoicing`;
+CREATE DATABASE `sql_invoicing`;
+
+USE `sql_invoicing`;
+
+SET NAMES UTF8;
+SET CHARACTER_SET_CLIENT = UTF8MB4;
