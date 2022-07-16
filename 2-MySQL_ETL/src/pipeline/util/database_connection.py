@@ -26,3 +26,14 @@ def databaseConnect(database=""):
         )
     except Exception as e:
         print(f"{FAILURE}[-] Exception Occured:{END}", e)
+
+
+def databaseDisconnect(connection, cursor):
+    """
+    This function helps to disconnect from database.
+    """
+    try:
+        connection.close()
+        cursor.close()
+    except Exception as e:
+        print(f"{FAILURE}[-] Exception Occured:{END}", e)
