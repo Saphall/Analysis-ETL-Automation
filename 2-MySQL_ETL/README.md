@@ -11,7 +11,7 @@ schema/                             # Folder containing sql queries to creates d
   |_ *.sql    
 src/
   |_ pipeline/                      # Folder containing python scripts    
-  |   |_ utils/                     # Folder containing utiliy modules.
+  |   |_ util/                      # Folder containing utiliy modules.
   |   |_ *.py   
   |_ sql/                           # Folder containing DQL/DML.
       |_ procedures/                # Procedural queries   
